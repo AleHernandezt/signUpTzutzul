@@ -1,0 +1,86 @@
+body{
+    background-image: url("img/4.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    
+}
+.signup-box{
+    width: 360px;
+    height: 440px;
+    margin:auto;
+    margin-top: 10%;
+    backdrop-filter: blur(10px);
+    /*
+    background-color: #fff ;
+    */
+
+    
+    border-radius: 10px;
+}
+.login-box{
+    width: 360px;
+    height: 270px;
+    backdrop-filter: blur(10px);
+    /* 
+    background-color: #fff ;
+    */
+    
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: #fff;
+    font-size: 18px;
+    
+}
+p{
+    position: absolute; left: 40%;
+    text-align: center;
+    padding: auto;
+    font-size: 15px;
+    color: #fff;
+    margin-top: -18px;
+    
+}
+p a{
+    color: #36927b;
+
+}
+
+
